@@ -16,6 +16,12 @@ The notebook uses a MobileNetV2 model pretrained on ImageNet. The convolutional 
 
 The notebook covers dataset inspection, stratified splitting, image augmentation, transfer learning, training callbacks, test-set evaluation, a confusion matrix, and single-image prediction.
 
+## Result
+
+The saved run reached **98.55% test accuracy** on 11,250 held-out images. The class-level F1 scores ranged from 0.98 to 1.00.
+
+![Test-set confusion matrix](figures/test_confusion_matrix.png)
+
 ## Dataset
 
 The notebook uses the [Rice Image Dataset](https://www.kaggle.com/datasets/muratkokludataset/rice-image-dataset), which contains 15,000 images for each of the five classes. Raw images are not included in this repository.
